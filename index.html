@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Surat Oke | Bopas Generation</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!--   <link href="media/css/material.indigo-pink.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="media/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link href="media/css/animate.min.css" rel="stylesheet" type="text/css">
+  <link href="media/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom CSS -->
+  <link href="media/css/custom.css" rel="stylesheet" type="text/css">
+
+  <!-- Core JavaScript Files -->
+  <script src="media/js/jquery-3.1.1.min.js"></script>
+  <script src="media/js/bootstrap.min.js"></script>
+  <script src="media/js/jquery.easing.min.js"></script>
+  <script src="media/js/wow.js"></script>
+  <script src="media/js/material.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="media/js/custom.js"></script>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body>
+
+
+ <!--top nav start=======-->
+ <nav class="navbar navbar-inverse top-navbar" id="top-nav">
+  <div class="container-fluid">
+    <div class="navbar-header">      
+      <a class="navbar-brand" href="#" style="color: #000">Surat Oke</a>
+      <a href="#" class="sidebar-toggle">
+        <i class="fa fa-bars" style="color: #000"></i></a>
+        <span class="close-btn" id="hide-btn"><i class="fa fa-times" style="color: #000" aria-hidden="true"></i></span>
+      </div>
+
+      <ul class="social-icon pull-right list-inline">
+
+        <li class="dropdown">
+          <a class=" dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-envelope"></span>
+            <span class="number">4</span>
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 1-1</a></li>
+              <li><a href="#">Page 1-2</a></li>
+              <li><a href="#">Page 1-3</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-bell"></span>
+              <span class="number">6</span>
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class=" dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-th-list"></span> 
+                <span class="number">11</span>
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Page 1-1</a></li>
+                  <li><a href="#">Page 1-2</a></li>
+                  <li><a href="#">Page 1-3</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>             
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Page 1-1</a></li>
+                    <li><a href="#">Page 1-2</a></li>
+                    <li><a href="#">Page 1-3</a></li>
+                  </ul>
+                </li>
+              </ul>       
+            </div>  
+          </nav>    
+          <!--    top nav end===========-->
+
+          <!-- begin SIDE NAV USER PANEL -->     
+          <div class="container-1" id="user-profil">                  
+            <ul id="side" class="nav navbar-nav-1 side-nav">
+
+             <li class="side-user">  
+              <img class="img-circle" src="https://lh3.googleusercontent.com/-UJUmoLiJWLY/WMp8QiPCa3I/AAAAAAAADPg/X-o1iKl1JYUpSVAP8ZoZK4ZiY-EFP5jjwCJoC/w150-h148-p-rw/profile-pic.jpg" alt="sumit kumar">
+              <p class="welcome"><i class="fa fa-key"></i> Logged in as</p>
+              <p class="name tooltip-sidebar-logout"> Sumit
+                <span class="last-name">Kumar</span>
+                <a href="#"><i class="fa fa-sign-out"></i></a>
+              </p>        
+            </li>
+
+            <li class="nav-search">
+             <form class="navbar-form">
+              <div class="input-group">
+               <input type="text" class="form-control" placeholder="Search">
+               <div class="input-group-btn">
+                 <button class="btn btn-default" type="submit">
+                   <i class="glyphicon glyphicon-search"></i>
+                 </button>
+               </div>
+             </div>
+           </form>
+         </li>
+
+         <li class="dashboard">
+           <a class="active" href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
+         </li>
+
+         <li class="panel">
+           <a href="javascript:;" data-toggle="collapse" data-target="#charts">
+             <i class="fa fa-bar-chart-o"></i> Charts <i class="fa fa-caret-down pull-right"></i>
+           </a>
+
+           <ul class="collapse nav" id="charts">
+            <li>
+              <a href="#"><i class="fa fa-angle-double-right"></i> Flot Charts</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-angle-double-right"></i> Morris.js</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="panel">
+         <a href="javascript:;" data-toggle="collapse" data-target="#calendar">
+           <i class="fa fa-calendar"></i> calendar <i class="fa fa-caret-down pull-right"></i>
+         </a>
+
+         <ul class="collapse nav" id="calendar">
+          <li>
+            <a href="#"><i class="fa fa-angle-double-right"></i> Flot Charts</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-angle-double-right"></i> Morris.js</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="panel">
+       <a href="javascript:;" data-toggle="collapse" data-target="#clipboard">
+         <i class="fa fa-clipboard"></i> clipboard <i class="fa fa-caret-down pull-right"></i>
+       </a>
+
+       <ul class="collapse nav" id="clipboard">
+        <li>
+          <a href="#"><i class="fa fa-angle-double-right"></i> Flot Charts</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-angle-double-right"></i> Morris.js</a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="panel">
+     <a href="javascript:;" data-toggle="collapse" data-target="#edit">
+       <i class="fa fa-edit"></i> edit <i class="fa fa-caret-down pull-right"></i>
+     </a>
+
+     <ul class="collapse nav" id="edit">
+      <li>
+        <a href="#"><i class="fa fa-angle-double-right"></i> Flot Charts</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-angle-double-right"></i> Morris.js</a>
+      </li>
+    </ul>
+  </li>
+
+  <li class="panel">
+   <a href="javascript:;" data-toggle="collapse" data-target="#inbox">
+     <i class="fa fa-inbox"></i> inbox <i class="fa fa-caret-down pull-right"></i>
+   </a>
+
+   <ul class="collapse nav" id="inbox">
+    <li>
+      <a href="#"><i class="fa fa-angle-double-right"></i> Flot Charts</a>
+    </li>
+    <li>
+      <a href="#"><i class="fa fa-angle-double-right"></i> Morris.js</a>
+    </li>
+  </ul>
+</li>
+
+<li class="panel">
+ <a href="javascript:;" data-toggle="collapse" data-target="#cogs">
+   <i class="fa fa-cogs"></i> cogs <i class="fa fa-caret-down pull-right"></i>
+ </a>
+
+ <ul class="collapse nav" id="cogs">
+  <li>
+    <a href="#"><i class="fa fa-angle-double-right"></i> Flot Charts</a>
+  </li>
+  <li>
+    <a href="#"><i class="fa fa-angle-double-right"></i> Morris.js</a>
+  </li>
+</ul>
+</li>
+
+<li class="panel">
+ <a href="javascript:;" data-toggle="collapse" data-target="#paper">
+   <i class="fa fa-paper-plane"></i> paper <i class="fa fa-caret-down pull-right"></i>
+ </a>
+
+ <ul class="collapse nav" id="paper">
+  <li>
+    <a href="#"><i class="fa fa-angle-double-right"></i> Flot Charts</a>
+  </li>
+  <li>
+    <a href="#"><i class="fa fa-angle-double-right"></i> Morris.js</a>
+  </li>
+</ul>
+</li>
+
+</ul>      
+</div>    
+
+
+<div class="container-2">
+ <div id="page-wrapper">   
+  <div class="row">
+   <div class="col-md-12">
+    <div class="page-title">
+     <h2>Dashboard-<small>Content Overview</small></h2>
+     <small>Aplikasi surat menyurat adalah aplikasi yang sengaja dibangun untuk mengelola semua data-data suarat masuk, surat keluar dan juga hak akses masing-masing user terhadap data-data surat masuk dan keluar pada sebuah perusahaan, Silahkan Mengelola Semua Data yang ada Melalui menu-menu yang telah tersedia di bawah ini :</small>
+     <ol class="breadcrumb">
+       <li class="active"><i class="fa fa-dashboard"></i> Dashboard</li>
+       <li class="pull-right">
+         <div id="reportrange" class="btn btn-green btn-square date-picker">
+          <i class="fa fa-calendar"></i>
+          <span class="date-range">February 15, 2017 - March 16, 2017</span> <i class="fa fa-caret-down"></i>
+        </div>
+      </li>
+    </ol>
+  </div>
+</div>
+</div> 
+
+<div class="row" >
+  <div class="col-lg-2 col-sm-6">
+    <div class="circle-tile">
+      <a href="#">
+        <div class="circle-tile-heading dark-blue">
+          <i class="fa fa-users fa-fw fa-3x"></i>
+        </div>
+      </a>
+      <div class="circle-tile-content dark-blue">
+        <div class="circle-tile-description text-faded">
+          Users
+        </div>
+        <div class="circle-tile-number text-faded">
+          265
+          <span id="sparklineA"></span>
+        </div>
+        <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-sm-6">
+    <div class="circle-tile">
+      <a href="#">
+        <div class="circle-tile-heading green">
+          <i class="fa fa-money fa-fw fa-3x"></i>
+        </div>
+      </a>
+      <div class="circle-tile-content green">
+        <div class="circle-tile-description text-faded">
+          Revenue
+        </div>
+        <div class="circle-tile-number text-faded">
+          $32,384
+        </div>
+        <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-sm-6">
+    <div class="circle-tile">
+      <a href="#">
+        <div class="circle-tile-heading orange">
+          <i class="fa fa-bell fa-fw fa-3x"></i>
+        </div>
+      </a>
+      <div class="circle-tile-content orange">
+        <div class="circle-tile-description text-faded">
+          Alerts
+        </div>
+        <div class="circle-tile-number text-faded">
+          9 New
+        </div>
+        <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-sm-6">
+    <div class="circle-tile">
+      <a href="#">
+        <div class="circle-tile-heading blue">
+          <i class="fa fa-tasks fa-fw fa-3x"></i>
+        </div>
+      </a>
+      <div class="circle-tile-content blue">
+        <div class="circle-tile-description text-faded">
+          Tasks
+        </div>
+        <div class="circle-tile-number text-faded">
+          10
+          <span id="sparklineB"></span>
+        </div>
+        <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-sm-6">
+    <div class="circle-tile">
+      <a href="#">
+        <div class="circle-tile-heading red">
+          <i class="fa fa-shopping-cart fa-fw fa-3x"></i>
+        </div>
+      </a>
+      <div class="circle-tile-content red">
+        <div class="circle-tile-description text-faded">
+          Orders
+        </div>
+        <div class="circle-tile-number text-faded">
+          24
+          <span id="sparklineC"></span>
+        </div>
+        <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-sm-6">
+    <div class="circle-tile">
+      <a href="#">
+        <div class="circle-tile-heading purple">
+          <i class="fa fa-comments fa-fw fa-3x"></i>
+        </div>
+      </a>
+      <div class="circle-tile-content purple">
+        <div class="circle-tile-description text-faded">
+          Mentions
+        </div>
+        <div class="circle-tile-number text-faded">
+          96
+          <span id="sparklineD"></span>
+        </div>
+        <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div><!-- page-wrapper END-->
+</div><!-- container-1 END-->
+
+
+
+
+
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".sidebar-toggle").click(function(){
+      $(this).hide();
+
+      $("#user-profil").show();
+
+      $("#hide-btn").show();
+
+      $(".container-2").css("width", "85%");
+
+
+    });
+
+    $("#hide-btn").click(function(){
+      $(this).hide();
+
+      $("#user-profil").hide();
+
+      $(".sidebar-toggle").show();
+
+      $(".container-2").css("width", "100%");
+
+
+    });
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--login modal-->
+<div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h2 class="text-center"><img src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100" class="img-circle"><br>Login</h2>
+      </div>
+      <div class="modal-body">
+        <form class="form col-md-12 center-block">
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control input-lg" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <button class="btn btn-primary btn-lg btn-block">Sign In</button>
+            <span class="pull-right"><a href="#">Register</a></span><span><a href="#">Need help?</a></span>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <div class="col-md-12">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--about modal-->
+<div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h2 class="text-center">About</h2>
+      </div>
+      <div class="modal-body">
+        <div class="col-md-12 text-center">
+          <a href="http://www.bootply.com/DwnjTNuvVt">This Bootstrap Template</a><br>was made with <i class="glyphicon glyphicon-heart"></i> by <a href="http://bootply.com/templates">Bootply</a>
+          <br><br>
+          <a href="https://github.com/iatek/bootstrap-google-plus">GitHub Fork</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
